@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+  <link href="https://fonts.googleapis.com/css?family=Ovo|Quicksand" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Superfund Sites on the National Priority List in Colorado</title>
+</head>
+
+<body>
+<div id="main">
+  <h1>Superfund Sites on the National Priority List in Colorado</h1>
+    <div id="map1">
+    </div> <!--map id -->
+    <br>
+  <p>This map was created by Joshua Baker for JOU3363 using Leaflet.js and Mapbox. The locations shown are Superfund sites listed on the EPA's <a href="https://www.epa.gov/superfund/superfund-national-priorities-list-npl"> National Priority List.</a> All of the data shown is collected from the EPA. </p>
+</div> <!--main div-->
+
+  <script src="scripts/places.json"></script>
+
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+  integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+  crossorigin=""></script>
+
+  <script src="scripts/map2.js"></script>
+</body>
+
+</html>

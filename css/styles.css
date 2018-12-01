@@ -1,0 +1,33 @@
+html {
+  background-color: #333;
+  font-family: 'Quicksand', 'Tahoma', 'Verdana', sans-serif;
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  padding: 10px;
+}
+p {
+  margin: auto;
+  max-width: 550px;
+}
+a:visited {
+  color: lime;
+}
+a:link {
+    color: cyan;
+}
+#main {
+text-align: center;
+color: #fff;
+margin: 0 auto;
+}
+
+#map1 {
+  height: 400px;
+  margin: auto;
+  border: 1px solid #fff;
+  max-width: 600px;
+}
